@@ -12,8 +12,6 @@ main:
 	subq	$48, %rsp
 	.seh_stackalloc	48
 	.seh_endprologue
-	movl	%ecx, 16(%rbp)
-	movq	%rdx, 24(%rbp)
 	call	__main
 	movl	$3, -4(%rbp)
 	cmpl	$1, -4(%rbp)
