@@ -1,5 +1,6 @@
-#include <iostream>
 
 int main() {
-    std::cout << "Assemble";
+    int i;
+    i = i + 7;
+    return i;
 }
